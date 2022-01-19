@@ -25,9 +25,9 @@ namespace ConsoleApp1
        {
              string comparision = "";
              Console.WriteLine("Insert data for 1st line: ");
-             double line1Length = LengthOfLine();
+             double line1Length = DispalyUC4();
              Console.WriteLine("Insert data for 2nd line: ");
-             double line2Length = LengthOfLine();
+             double line2Length = DispalyUC4();
              if (line1Length > line2Length) comparision = "is greater than";
             else if (line1Length < line2Length) comparision = "is less than";
             else if (line1Length == line2Length) comparision = "is equals to";
