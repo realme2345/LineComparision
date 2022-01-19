@@ -10,7 +10,10 @@ namespace LengthOfTwoPoints
     {
         static void Main(string[] args)
         {
-            Length.Distance();
+             //Length.Distance();
+            //UC2LineComparision.Comaparision();
+            //UC3LineComparision.ComparisionUC3();
+            UC4LineComparision.ComparisionUC4();
         }
     }
 }
